@@ -43,4 +43,17 @@
    ...
    ```
 
-   
+
+
+
+### Note
+
+```
+ if(instance == NULL){
+            mutex_.lock();
+            instance = new Singleton();
+            mutex_.unlock();
+	}
+```
+
+加锁是为了防止多线程下出现多个实例。

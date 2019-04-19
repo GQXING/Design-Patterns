@@ -8,3 +8,4 @@
 2. 观察者模式
 3. 单例模式
 4. 工厂模式
+5. [代理模式](https://github.com/GQXING/Design-Patterns/tree/master/)
